@@ -42,11 +42,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-center">
                 <h2 className="text-white mt-0">We've got what you need!</h2>
                 <hr className="divider light my-4"/>
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
-                  attached!</p>
+                <p className="text-white-50 mb-4">Our team has the capability to take your solutions to the next level.  Let us transform your customer experience!</p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
                    onClick={Scroller.handleAnchorScroll}>Get Started!</a>
               </div>
@@ -61,30 +57,30 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
-                  <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                  <i className="fas fa-4x fa-briefcase text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Consultancy</h3>
+                  <p className="text-muted mb-0">Our team boasts decades of experience, and we are ready to assist.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
-                  <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                  <h3 className="h4 mb-2">Development</h3>
+                  <p className="text-muted mb-0">Our team of developers is eager to start building on your ideas.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                  <i className="fas fa-4x fa-key text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Solutions</h3>
+                  <p className="text-muted mb-0">Tap into our pre-built solutions that are already tackling your common problems.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                  <i className="fas fa-4x fa-phone text-primary mb-4"></i>
+                  <h3 className="h4 mb-2">Communication</h3>
+                  <p className="text-muted mb-0">We will work closely with your stakeholders so that we build your solution together.</p>
                 </div>
               </div>
             </div>
@@ -176,12 +172,12 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section bg-dark text-white">
+        {/* <section className="page-section bg-dark text-white">
           <div className="container text-center">
             <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
             <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
           </div>
-        </section>
+        </section> */}
 
         <section className="page-section" id="contact">
           <div className="container">
